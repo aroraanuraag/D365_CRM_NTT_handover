@@ -14,14 +14,10 @@ import cucumber.api.java.After;
 import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
-// To fix Cucumber Advanced Reports option.......
 
-
-//https://github.com/naveenanimation20/Cucumber-TestNG (Location for the Pom.xml and other code.
 
 @CucumberOptions(
-        //features = "src/main/java/Features",
-//		features = "/Users/anuraag.arora/OneDrive - NTT/Documents/Automation_Final_Framework/Automation Framework-Final worked on/eclipse-workspace/Cucumber_with_POM_TestNG_ParallelExecution/src/main/java/com/qa/features/1_NTT_CRM_file_01.feature",
+      
 features = "C:/TEST Automation - Selenium Java/1. Latest Cucumber Working File - Test Automation BDD - 07th June 2021/Cucumber_with_POM_TestNG_ParallelExecution/src/main/java/com/qa/features/1_NTT_CRM_file_01.feature",
 		glue = {"com/qa/stepDefinitions"},
         //tags = {"~@Ignore"},
